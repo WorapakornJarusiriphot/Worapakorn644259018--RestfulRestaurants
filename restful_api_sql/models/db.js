@@ -21,4 +21,4 @@ const sequelize = new Sequelize(dbConfig.DB, dbConfig.USER, dbConfig.PASSWORD,{ 
 
   testConection();
 
-  module.exports = Sequelize;
+  module.exports = sequelize;
