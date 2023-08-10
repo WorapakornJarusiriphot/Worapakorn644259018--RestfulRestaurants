@@ -1,4 +1,46 @@
-*{
+
+* {
     font-family: 'Kanit', sans-serif;
-    }
-    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 18px;
+  }
+  
+  h1 {
+    font-size: 36px;
+    color: #000000;
+  }
+  
+  .container.text-center h1 {
+    margin: 20px 0;
+  }
+  
+  a.btn.btn-success {
+    background-color: #28a745;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  button.btn.btn-primary {
+    background-color: #007bff;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .input-group {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  #restaurants {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
