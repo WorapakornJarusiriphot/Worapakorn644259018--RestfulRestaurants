@@ -6,14 +6,6 @@
   box-sizing: border-box;
 }
 
-body {
-  background-color: #f7f9fc;
-  color: #333;
-  font-size: 18px;
-  line-height: 1.6;
-  padding: 20px;
-}
-
 h1 {
   font-size: 36px;
   color: #4a4a4a;
@@ -37,8 +29,28 @@ a.btn:hover, button.btn:hover {
 }
 
 .input-group {
-  max-width: 400px;
+  max-width: 77%;
   margin: 20px auto;
+}
+
+#searchInput {
+  font-size: 2rem;
+  height: 60px;
+}
+
+#searchButton {
+  font-size: 2rem;
+  height: 60px;
+}
+
+#searchInput {
+  font-size: 1.5rem;
+  height: 50px;
+}
+
+#searchButton {
+  font-size: 1.5rem;
+  height: 50px;
 }
 
 #restaurants {
@@ -60,4 +72,9 @@ a.btn:hover, button.btn:hover {
 #restaurants .restaurant-item:hover {
   transform: translateY(-3px);
   box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+
+.add-restaurant-button {
+  width: 1000px; /* Setting the specific width of 300px for the "Add Restaurant" button */
 }
