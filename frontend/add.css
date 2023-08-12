@@ -17,25 +17,20 @@ body {
 .navbar-brand,
 .nav-link {
     color: #ffffff !important;
-    font-size: 20px; /* Increase the font size of the navigation links */
 }
 
 h1 {
     color: #4caf50;
-    font-size: 36px; /* Increase the font size of the h1 element */
 }
 
 .container .form-label {
-    font-size: 24px; /* Increase the font size of the labels */
-}
-
-.container .form-control {
-    font-size: 20px; /* Increase the font size of the input fields */
-    width: 100%;
+    font-size: 24px;
+    /* Increase the font size of the labels */
 }
 
 .btn-primary {
     background-color: #4caf50;
-    font-size: 18px; /* Increase the font size of the primary button */
+    font-size: 18px;
+    /* Increase the font size of the primary button */
     width: 100%;
 }

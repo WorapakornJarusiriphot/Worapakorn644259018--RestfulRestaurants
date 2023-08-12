@@ -15,10 +15,7 @@
     font-size: 20px; /* Increase the font size of the navigation links */
 }
 
-h1 {
-    color: #2196f3;
-    font-size: 36px; /* Increase the font size of the h1 element */
-}
+
 
 .card-header {
     font-size: 24px; /* Increase the font size of the card header */
@@ -27,14 +24,4 @@ h1 {
 .form-group label,
 .form-group .form-control {
     font-size: 20px; /* Increase the font size of the labels and input fields */
-}
-
-.btn-success,
-.btn-danger {
-    font-size: 18px; /* Increase the font size of the buttons */
-    background-color: #4caf50;
-}
-
-.btn-danger {
-    background-color: #f44336;
 }
