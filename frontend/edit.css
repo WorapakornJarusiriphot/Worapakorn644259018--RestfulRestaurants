@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+h1 {
+    color: #2196f3;
+}
+
 .navbar {
     background-color: #ff5722;
 }
@@ -12,16 +16,17 @@
 .navbar-brand,
 .nav-link {
     color: #ffffff !important;
-    font-size: 20px; /* Increase the font size of the navigation links */
+    font-size: 20px;
+    /* เพิ่มขนาดตัวอักษรของลิงค์นำทาง */
 }
 
-
-
 .card-header {
-    font-size: 24px; /* Increase the font size of the card header */
+    font-size: 24px;
+    /* เพิ่มขนาดฟอนต์ส่วนหัวของการ์ด */
 }
 
 .form-group label,
 .form-group .form-control {
-    font-size: 20px; /* Increase the font size of the labels and input fields */
+    font-size: 20px;
+    /* เพิ่มขนาดตัวอักษรของฉลากและช่องใส่ */
 }

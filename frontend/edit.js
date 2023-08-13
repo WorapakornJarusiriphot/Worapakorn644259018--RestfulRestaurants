@@ -1,9 +1,9 @@
 const init = async () => {
-  //Get parameters from URL
+  // รับพารามิเตอร์จาก URL
   const params = new URL(document.location).searchParams;
   const id = params.get("id");
   if (id) {
-    //get restaurant by ID
+    // รับร้านอาหารตาม ID
     try {
       const url = "http://localhost:5000/restaurants/";
       //console.log(url+id);
@@ -17,15 +17,14 @@ const init = async () => {
         },
       }).then((response) => response.json());
       //console.log(restaurant);
-      document.getElementById("id").value = restaurant.id;
       document.getElementById("name").value = restaurant.name;
       document.getElementById("type").value = restaurant.type;
       document.getElementById("imageURL").value = restaurant.imageURL;
     } catch (error) {
-      alert(`Restaurant id ${id} is not found`);
+      alert(`ไม่พบรหัสร้านอาหาร ${id} ร้านนี้`);
     }
   } else {
-    alert("Restaurant id is missing");
+    alert("รหัสร้านอาหารหายไป");
   }
 };
 
@@ -54,7 +53,7 @@ const edit = async () => {
       })
         .then((response) => response.json())
         .then(() => {
-          alert(`Restaurant ID ${id} is updated!`);
+          alert(`อัพเดท ID ร้านอาหาร ร้านที่ ${id} แล้ว!`);
         });
     } catch (error) {
       console(error);

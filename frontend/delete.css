@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+h1 {
+    color: #f44336;
+}
+
 .navbar {
     background-color: #ff5722;
 }
@@ -15,10 +19,6 @@
 }
 
 .container p {
-    font-size: 28px; /* เพิ่มขนาดตัวอักษรขององค์ประกอบ p */
+    font-size: 28px;
+    /* เพิ่มขนาดตัวอักษรขององค์ประกอบ p */
 }
-
-
-
-
-
