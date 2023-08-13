@@ -16,7 +16,12 @@ body {
 
 .navbar-brand,
 .nav-link {
-    color: #ffffff !important;
+  color: #ffffff !important;
+}
+
+.card-header {
+    font-size: 24px;
+    /* เพิ่มขนาดฟอนต์ส่วนหัวของการ์ด */
 }
 
 h1 {
@@ -25,12 +30,12 @@ h1 {
 
 .container .form-label {
     font-size: 24px;
-    /* Increase the font size of the labels */
+    /* เพิ่มขนาดตัวอักษรของฉลาก */
 }
 
 .btn-primary {
     background-color: #4caf50;
     font-size: 18px;
-    /* Increase the font size of the primary button */
+    /* เพิ่มขนาดตัวอักษรของปุ่มหลัก */
     width: 100%;
 }

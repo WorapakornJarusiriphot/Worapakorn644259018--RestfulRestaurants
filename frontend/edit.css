@@ -15,9 +15,7 @@ h1 {
 
 .navbar-brand,
 .nav-link {
-    color: #ffffff !important;
-    font-size: 20px;
-    /* เพิ่มขนาดตัวอักษรของลิงค์นำทาง */
+  color: #ffffff !important;
 }
 
 .card-header {
