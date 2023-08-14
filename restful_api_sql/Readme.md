@@ -2,7 +2,7 @@
  ชื่อ นายวรปกร จารุศิริพจน์ รหัสนักศึกษา644259018 หมู่เรียน64/45
 
 
-# restful_api_sql
+# ในโฟลเดอร์ restful_api_sql
 
 ## ไฟล์ package.json
 
@@ -817,10 +817,5 @@ module.exports = Restaurant;
 #### การส่งออก Router
 `module.exports = router;`
 - ส่งออก router เพื่อใช้ในส่วนอื่นๆ ของแอพพลิเคชัน
-
-
-
-
-
 
 
